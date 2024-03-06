@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>League of Monsters</title>
 </head>
 
@@ -22,12 +23,16 @@
         </ul>
     </nav>
     <form action="#" method="post">
-        <legend>Monster Survey</legend>
-        <div class="field"><label for="monster">Which monster do you like the most?</label><input name="answer" type="text"></div>
-        <div class="field"><label for="like">How much do you like this monster?</label><input type="range" name="like" min="0" max="10"></div>
-        <div class="field"><input name="agree" type="checkbox"><label for="agree">Can I store this information?</label></div>
-        <div class="field"><label for="motif">Why did you pick this monster?</label><textarea name="motif" id=""
-                cols="30" rows="10"></textarea></div>
+        <fieldset>
+            <legend>Monster Survey</legend>
+            <div class="field"><label for="monster">Which monster do you like the most?</label><input name="answer" type="text"></div>
+            <div class="field"><label for="like">How much do you like this monster?</label><input type="range" name="like" min="0" max="10"></div>
+            <div class="field checkbox"><input name="agree" type="checkbox"><label for="agree">Can I store this information?</label></div>
+            <div class="field"><label for="motif">Why did you pick this monster?</label><textarea name="motif" id=""
+                    cols="30" rows="5"></textarea></div>
+            <div class="btn"><button type="submit">Submit</button></div>
+        </fieldset>
+
     </form>
 </body>
 

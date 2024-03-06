@@ -1,3 +1,113 @@
 header {
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
     background-image: url("https://static.wikia.nocookie.net/leagueoflegends/images/d/d6/Monsters_Summoners_Rift.jpg/revision/latest/scale-to-width-down/1000?cb=20201013124040");
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+    margin: 0 20%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #826251;
+}
+
+
+nav {
+    color: #826251;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFE8D1;
+}
+
+fieldset {
+    border: 1px solid black;
+    margin: 1% 30%;
+    padding: 1%;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+}
+
+.field.checkbox {
+    flex-direction: row;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+}
+
+.information__main {
+    font-size: 55px;
+}
+
+.information__main ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.information__main li {
+    margin: 0 10%;
+}
+
+.third-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-row img {
+    width: 40%;
+}
+
+.gallery div {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery h3 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.gallery img {
+    border-radius: 30%;
+    margin: 2%;
+}
+
+.third-row h3 {
+    align-items: flex-end;
 }
